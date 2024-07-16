@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_right {
+    display: flex;
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding-left: 30px;
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    a {
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+
+  &__text {
+    width: 154px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+  }
+}
+
+.order {
+  &__btn {
+    padding: 14px 18px;
+    width: 157px;
+    background-color: #ff7400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      color:#ff7400;
+      background-color: #fff;
+    }
+  }
+}

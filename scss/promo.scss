@@ -1,0 +1,96 @@
+.promo {
+  padding-top: 50px;
+  min-height: 100vh;
+  background: url("../img/promo-bg.png") center/cover no-repeat;
+
+  .promo__content {
+    margin-top: 260px;
+    width: 480px;
+  }
+
+  &__title {
+    color: $main-color;
+
+    span {
+      display: block;
+    }
+
+    span:first-of-type {
+      display: block;
+      width: 480px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 57px;
+    }
+
+    span:nth-child(2) {
+      display: block;
+      width: 556px;
+      text-align: left;
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 92px;
+    }
+
+    h1 {
+      margin-top: 12px;
+      position: relative;
+      width: 490px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 60px;
+        height: 1px;
+        background-color: #fff;
+      }
+
+      &::before {
+        left: 0;
+        transform: translate(92px, -50%);
+      }
+
+      &::after {
+        transform: translate(8px, -50%);
+      }
+    }
+  }
+
+  &__btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 14px 18px;
+    width: 137px;
+    background-color: #ff7400;
+
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+    a {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      transition: all 0.4s ease-in-out;
+    }
+
+    &:hover {
+      a {
+        color: #ff7400;
+      }
+      background-color: #fff;
+    }
+  }
+}
