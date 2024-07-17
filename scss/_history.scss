@@ -18,6 +18,12 @@
     text-align: center;
     color: #656363;
   }
+
+  &__img {
+    width: 539px;
+    height: 498px;
+    object-fit: cover;
+  }
 }
 
 .statistics {
@@ -51,5 +57,4 @@
     line-height: 27px;
     color:#000;
   }
-
 }
