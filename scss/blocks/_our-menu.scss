@@ -14,12 +14,28 @@
     justify-content: space-between;
   }
 
-
   &__item {
     position: relative;
     padding: 80px 62px;
     width: 350px;
     background-color: #fff;
+
+    &:first-of-type {
+      &::before {
+        content: "RECOMMENDED";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 12px;
+        width: 124px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        background-color: $main-color;
+      }
+    }
   }
 
   &__img {
@@ -62,10 +78,9 @@
     transition: all 0.4s ease-in-out;
     cursor: pointer;
 
-
     &:hover {
-        color: $main-color;
-      background-color: #fff;
+      color: $main-color;
+      background-color: #000;
     }
   }
 }

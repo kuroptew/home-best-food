@@ -17,16 +17,26 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  display: block;
+  width: 100px;
+  height: 68px;
+  object-fit: cover;
+}
+
 @import "variables";
-@import "titles";
-@import "promo";
-@import "header";
-@import "nav-menu";
-@import "history";
-@import "advantages";
-@import "reserve";
-@import "dishes";
-@import "our-menu";
+@import "./blocks/titles";
+@import "./blocks/buttons";
+@import "./blocks/promo";
+@import "./blocks/hamburger";
+@import "./blocks/header";
+@import "./blocks/nav-menu";
+@import "./blocks/history";
+@import "./blocks/advantages";
+@import "./blocks/reserve";
+@import "./blocks/dishes";
+@import "./blocks/our-menu";
+@import "media";
 
 
 

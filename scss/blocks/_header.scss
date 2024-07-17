@@ -39,21 +39,6 @@
 
 .order {
   &__btn {
-    padding: 14px 18px;
     width: 157px;
-    background-color: #ff7400;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color:#fff;
-    text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
-
-    &:hover {
-      color:#ff7400;
-      background-color: #fff;
-    }
   }
 }

@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 18px;
+  width: 137px;
+  background-color: #ff7400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff7400;
+    background-color: #fff;
+  }
+}
