@@ -58,6 +58,7 @@
       left: 150px;
     }
   }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -175,6 +176,21 @@
 
   .horizontal-dotted-line {
     width: 40%;
+  }
+
+  .gallery {
+    padding: 70px 0 35px 0;
+    &__list {
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+      gap: 20px;
+    }
+
+    &__item {
+      &:first-child,
+      &:last-child {
+        grid-column: unset;
+      }
+    }
   }
 }
 
@@ -342,6 +358,13 @@
     &__price {
       left: 170px;
     }
+  }
+
+  .gallery {
+    &__list {
+      grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    }
+
   }
 }
 
