@@ -6,13 +6,16 @@
   &__content {
     display: flex;
   }
+
+  &__contacts {
+    padding-left: 30px;
+  }
 }
 
 .contacts {
   display: flex;
   align-items: center;
   gap: 45px;
-  padding-left: 30px;
 
   &__phone {
     display: flex;
