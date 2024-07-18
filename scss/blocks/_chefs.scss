@@ -1,0 +1,18 @@
+.chefs {
+  padding: 50px 0 100px 0;
+
+  &__list {
+    margin-top: 108px;
+    display: flex;
+    justify-content: center;
+    //justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  &_img {
+    width: 350px;
+    height: 462px;
+    object-fit: cover;
+  }
+}
