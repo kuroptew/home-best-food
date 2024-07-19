@@ -11,6 +11,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Дом лучшей еды</title>
   </head>
@@ -49,7 +53,7 @@
                 </div>
                 <p class="contacts__text">Свяжитесь с нами для бронирования</p>
               </div>
-              <button class="btn order__btn">Заказ столика</button>
+              <button class="btn order__btn animate__animated animate__pulse animate__infinite">Заказ столика</button>
             </div>
             <div class="hamburger">
               <span></span>
@@ -59,7 +63,7 @@
           </div>
         </header>
         <div class="promo__content">
-          <div class="promo__title">
+          <div class="promo__title animate__animated animate__fadeInLeft">
             <span>Добро пожаловать в</span>
             <span>Наш ресторан</span>
             <h1>Дом лучшей еды</h1>
@@ -72,8 +76,8 @@
       <div class="container">
         <div class="history__wrapper">
           <div>
-            <h2 class="title">Наша <span>История</span></h2>
-            <p class="history__text">
+            <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-delay="0.4s">Наша <span>История</span></h2>
+            <p class="history__text animate__animated animate__fadeInRight wow" data-wow-delay="0.6s">
               Как и у любого другого самобытного места, у нас есть своя, особая
               история. Идея ресторана пришла основателям неожиданно. Во время
               прогулки по лесу создатель нашего ресторана застрял в сотнях
@@ -81,7 +85,7 @@
               и связи им пришлось на время обустраивать себе нехитрый быт,
               добывать и готовить себе еду.
             </p>
-            <ul class="statistics__list">
+            <ul class="statistics__list animate__animated animate__fadeIn wow" data-wow-delay="0.8s">
               <li class="statistics__item">
                 <span class="statistics__count">93</span>
                 <span class="statistics__name">Напитки</span>
@@ -96,9 +100,9 @@
               </li>
             </ul>
           </div>
-          <img src="./img/history.png" alt="history" class="history__img" />
+          <img src="./img/history.png" alt="history" class="history__img animate__animated animate__fadeIn wow" data-wow-delay="0.6s" />
         </div>
-        <ul class="advantages__list">
+        <ul class="advantages__list animate__animated animate__fadeInUp wow" data-wow-delay="0.4s">
           <li class="advantages__item">
             <svg
               class="advantages__img"
@@ -382,7 +386,7 @@
             <p class="reserve__text">
               Отпразднуйте в одном из самых лучших ресторанов.
             </p>
-            <h2 class="reserve__title">
+            <h2 class="reserve__title animate__animated animate__tada wow">
               Только в этом месяце бизнес-ланч от 250 ₽
             </h2>
           </div>
@@ -632,21 +636,21 @@
       <div class="container">
         <h2 class="title">Наши <span>Повара</span></h2>
         <ul class="chefs__list">
-          <li class="chefs__item">
+          <li class="chefs__item animate__animated animate__fadeInRight wow" data-wow-delay="0.3s">
             <img
               src="img/chefs/first-chef.png"
               alt="Photo chef"
               class="chefs__img"
             />
           </li>
-          <li class="chefs__item">
+          <li class="chefs__item animate__animated animate__fadeInRight wow" data-wow-delay="0.6s">
             <img
               src="img/chefs/second-chef.png"
               alt="Photo chef"
               class="chefs__img"
             />
           </li>
-          <li class="chefs__item">
+          <li class="chefs__item animate__animated animate__fadeInRight wow" data-wow-delay="0.9s">
             <img
               src="img/chefs/third-chef.png"
               alt="Photo chef"
@@ -682,6 +686,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

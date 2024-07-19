@@ -24,7 +24,7 @@ body {
   object-fit: cover;
 }
 
-@import "variables";
+@import "./base/variables";
 @import "./blocks/titles";
 @import "./blocks/buttons";
 @import "./blocks/promo";

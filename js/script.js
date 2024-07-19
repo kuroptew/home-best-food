@@ -24,3 +24,5 @@ const swiper = new Swiper(".swiper", {
     }
   }
 });
+
+new WOW().init();
