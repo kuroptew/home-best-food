@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tinos&family=Cookie&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tinos&family=Cookie&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Дом лучшей еды</title>
@@ -106,7 +110,6 @@
                 <clipPath id="clip2_19">
                   <rect
                     id="tray 1"
-                    rx="-0.500000"
                     width="86.000000"
                     height="86.000000"
                     transform="translate(0.500000 0.500000)"
@@ -126,7 +129,6 @@
               >
                 <rect
                   id="tray 1"
-                  rx="-0.500000"
                   width="86.000000"
                   height="86.000000"
                   transform="translate(0.500000 0.500000)"
@@ -200,7 +202,6 @@
                 <clipPath id="clip2_19">
                   <rect
                     id="tray 1"
-                    rx="-0.500000"
                     width="86.000000"
                     height="86.000000"
                     transform="translate(0.500000 0.500000)"
@@ -220,7 +221,6 @@
               >
                 <rect
                   id="tray 1"
-                  rx="-0.500000"
                   width="86.000000"
                   height="86.000000"
                   transform="translate(0.500000 0.500000)"
@@ -291,7 +291,6 @@
                 <clipPath id="clip2_19">
                   <rect
                     id="tray 1"
-                    rx="-0.500000"
                     width="86.000000"
                     height="86.000000"
                     transform="translate(0.500000 0.500000)"
@@ -311,7 +310,6 @@
               >
                 <rect
                   id="tray 1"
-                  rx="-0.500000"
                   width="86.000000"
                   height="86.000000"
                   transform="translate(0.500000 0.500000)"
@@ -448,11 +446,10 @@
               alt="Hamburger max"
               class="our-menu__img"
             />
-            <span class="our-menu__price"> &#36<span>42</span></span>
+            <span class="our-menu__price">&#36<span>42</span></span>
             <h3 class="our-menu__name">Гамбургер макси</h3>
             <p class="our-menu__text">Максимально толстый слой мяса</p>
             <button class="our-menu__btn">Заказать</button>
-
           </li>
           <li class="our-menu__item">
             <img
@@ -479,29 +476,154 @@
         </ul>
       </div>
     </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="swiper reviews__swiper">
+          <div class="swiper-wrapper reviews__wrapper">
+            <div class="swiper-slide reviews__slide">
+              <p
+                class="reviews__text"
+                data-swiper-parallax="-900"
+                data-swiper-parallax-duration="2000"
+              >
+                Я надолго запомню мой День рождения, проведённый в этом
+                ресторане! Кусочек родной Армении!!! Отдельное спасибо за
+                комплимент в виде фруктовой тарелки. Будем рекомендовать этот
+                ресторан своим друзьям и родственникам также за рубежом,
+                путешествующих в Санкт-Петербург!!!
+              </p>
+              <img
+                src="./img/reviews/avatar-user.png"
+                alt="Avatar user"
+                class="reviews__avatar"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="2500"
+              />
+              <h3
+                class="reviews__role"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3000"
+              >
+                Посетитель 1
+              </h3>
+              <h4
+                class="reviews__name"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3500"
+              >
+                Николай 1
+              </h4>
+            </div>
+            <div class="swiper-slide reviews__slide">
+              <p
+                class="reviews__text"
+                data-swiper-parallax="-900"
+                data-swiper-parallax-duration="2000"
+              >
+                Я надолго запомню мой День рождения, проведённый в этом
+                ресторане! Кусочек родной Армении!!! Отдельное спасибо за
+                комплимент в виде фруктовой тарелки. Будем рекомендовать этот
+                ресторан своим друзьям и родственникам также за рубежом,
+                путешествующих в Санкт-Петербург!!!
+              </p>
+              <img
+                src="./img/reviews/avatar-user.png"
+                alt="Avatar user"
+                class="reviews__avatar"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="2500"
+              />
+              <h3
+                class="reviews__role"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3000"
+              >
+                Посетитель 2
+              </h3>
+              <h4
+                class="reviews__name"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3500"
+              >
+                Николай 2
+              </h4>
+            </div>
+            <div class="swiper-slide reviews__slide">
+              <p
+                class="reviews__text"
+                data-swiper-parallax="-900"
+                data-swiper-parallax-duration="2000"
+              >
+                Я надолго запомню мой День рождения, проведённый в этом
+                ресторане! Кусочек родной Армении!!! Отдельное спасибо за
+                комплимент в виде фруктовой тарелки. Будем рекомендовать этот
+                ресторан своим друзьям и родственникам также за рубежом,
+                путешествующих в Санкт-Петербург!!!
+              </p>
+              <img
+                src="./img/reviews/avatar-user.png"
+                alt="Avatar user"
+                class="reviews__avatar"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="2500"
+              />
+              <h3
+                class="reviews__role"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3000"
+              >
+                Посетитель 3
+              </h3>
+              <h4
+                class="reviews__name"
+                data-swiper-parallax="-600"
+                data-swiper-parallax-duration="3500"
+              >
+                Николай 3
+              </h4>
+            </div>
+          </div>
+          <div class="swiper-pagination reviews__pagination"></div>
+        </div>
+      </div>
+    </section>
     <section class="gallery">
       <div class="container">
-        <h2 class="title">
-          Галерея <span>Блюд</span>
-        </h2>
+        <h2 class="title">Галерея <span>Блюд</span></h2>
         <ul class="gallery__list">
           <li class="gallery__item">
-            <img src="img/dishes/glasses.png" alt="Glasses" class="gallery__img">
+            <img
+              src="img/dishes/glasses.png"
+              alt="Glasses"
+              class="gallery__img"
+            />
           </li>
           <li class="gallery__item">
-            <img src="img/dishes/coffee.png" alt="Coffee" class="gallery__img">
+            <img
+              src="img/dishes/coffee.png"
+              alt="Coffee"
+              class="gallery__img"
+            />
           </li>
           <li class="gallery__item">
-            <img src="img/dishes/soup.png" alt="Soup" class="gallery__img">
+            <img src="img/dishes/soup.png" alt="Soup" class="gallery__img" />
           </li>
           <li class="gallery__item">
-            <img src="img/dishes/coffee.png" alt="Coffee" class="gallery__img">
+            <img
+              src="img/dishes/coffee.png"
+              alt="Coffee"
+              class="gallery__img"
+            />
           </li>
           <li class="gallery__item">
-            <img src="img/dishes/soup.png" alt="Soup" class="gallery__img">
+            <img src="img/dishes/soup.png" alt="Soup" class="gallery__img" />
           </li>
           <li class="gallery__item">
-            <img src="img/dishes/glasses.png" alt="Glasses" class="gallery__img">
+            <img
+              src="img/dishes/glasses.png"
+              alt="Glasses"
+              class="gallery__img"
+            />
           </li>
         </ul>
       </div>
@@ -511,13 +633,25 @@
         <h2 class="title">Наши <span>Повара</span></h2>
         <ul class="chefs__list">
           <li class="chefs__item">
-            <img src="img/chefs/first-chef.png" alt="Photo chef" class="chefs__img">
+            <img
+              src="img/chefs/first-chef.png"
+              alt="Photo chef"
+              class="chefs__img"
+            />
           </li>
           <li class="chefs__item">
-            <img src="img/chefs/second-chef.png" alt="Photo chef" class="chefs__img">
+            <img
+              src="img/chefs/second-chef.png"
+              alt="Photo chef"
+              class="chefs__img"
+            />
           </li>
           <li class="chefs__item">
-            <img src="img/chefs/third-chef.png" alt="Photo chef" class="chefs__img">
+            <img
+              src="img/chefs/third-chef.png"
+              alt="Photo chef"
+              class="chefs__img"
+            />
           </li>
         </ul>
       </div>
@@ -529,18 +663,25 @@
             <img src="./img/logo.png" alt="logo" class="logo" />
           </a>
           <div class="map__wrapper">
-            <iframe src="https://maps.google.com/maps?q=53.30393, 34.29961&z=15&output=embed" frameborder="0" style="border:0" class="map"></iframe>
+            <iframe
+              src="https://maps.google.com/maps?q=53.30393, 34.29961&z=15&output=embed"
+              frameborder="0"
+              style="border: 0"
+              class="map"
+            ></iframe>
           </div>
           <div class="contacts footer__contacts">
-              <div class="contacts__phone">
-                <img src="./img/phone.svg" alt="phone" />
-                <a href="tel:+79998887654">+999-888-76-54</a>
-              </div>
-              <p class="contacts__text">Свяжитесь с нами для бронирования</p>
-              <button class="btn order__btn">Заказ столика</button>
+            <div class="contacts__phone">
+              <img src="./img/phone.svg" alt="phone" />
+              <a href="tel:+79998887654">+999-888-76-54</a>
+            </div>
+            <p class="contacts__text">Свяжитесь с нами для бронирования</p>
+            <button class="btn order__btn">Заказ столика</button>
           </div>
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

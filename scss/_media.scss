@@ -180,6 +180,10 @@
     width: 40%;
   }
 
+  .reviews {
+    padding: 80px 0;
+  }
+
   .gallery {
     padding: 70px 0 35px 0;
     &__list {
@@ -194,6 +198,7 @@
       }
     }
   }
+
   .footer {
     &__wrapper {
       flex-direction: column;
@@ -207,6 +212,7 @@
       order: 3;
     }
   }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -373,6 +379,10 @@
     &__price {
       left: 170px;
     }
+  }
+
+  .reviews {
+    padding: 10px 0 25px 0;
   }
 
   .gallery {

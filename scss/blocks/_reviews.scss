@@ -1,0 +1,77 @@
+.reviews {
+  padding: 104px 0 87px 0;
+  min-height: 550px;
+  background-color: #e6e5e5;
+
+  &__swiper {
+    padding-bottom: 33px;
+    height: 100%;
+  }
+
+  &__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    font-style: italic;
+    text-align: center;
+  }
+
+  &__avatar {
+    margin: 22px auto 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__role {
+    margin-top: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  &__name {
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 0;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 2px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    background-color: #c4c4c4;
+    box-sizing: content-box;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: inherit;
+    border: 1px solid #ff7400;
+  }
+}
