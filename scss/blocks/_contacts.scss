@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    a {
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+
+  &__text {
+    width: 154px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+  }
+}
